@@ -19,4 +19,3 @@ MONGO_PORT
 - `mongoimport -d app -c orders --uri mongodb://localhost:27017 fake_orders.json` for load test data (into mongo container and app folder)
 - `make lint` for lint and mypy
 - `pytest .` for run tests 
-
